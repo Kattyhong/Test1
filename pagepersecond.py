@@ -1,6 +1,6 @@
 import os
-fp = open('J:/test1/keypage-test-2014-07-10-14-30-01.983972.txt','r')
-fnew = open('J:/test1/save.txt','w+')
+fp = open('keypage-test-2014-07-10-14-30-01.983972.txt','r')
+fnew = open('/save.txt','w+')
 flist = fp.readlines()
 total=0
 pageadd=0
